@@ -110,3 +110,16 @@ a:hover {
 .jump {
   animation: jump 0.5s infinite;
 }
+.hero_image {
+  width: 100%;
+  height: auto;
+  max-width: 33.33vw;
+  max-height: calc(33.33vw * 3);
+  border: 2px solid rgb(255, 255, 255); /* Add a border to the picture */
+}
+
+.picture_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
