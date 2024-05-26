@@ -1,0 +1,112 @@
+/* Center the content */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+body {
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set body background color to black */
+body {
+  background-color: black;
+}
+
+/* Set font color to white */
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+}
+
+/* Set font family and size */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+}
+
+/* Set maximum width for content */
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 10px;
+  font-size: 32px; /* BEGIN: Increase font size for headings */
+}
+
+/* Style paragraphs */
+p {
+  margin-bottom: 20px;
+}
+
+/* Style links */
+a {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Hero container */
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Additional padding for elements within .container */
+.container * {
+  padding: 10px;
+}
+/* Style footer */
+.footer {
+  text-align: center;
+  font-style: italic;
+}
+/* Animation for jumping effect */
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* Apply jump animation to elements with class "jump" */
+.jump {
+  animation: jump 0.5s infinite;
+}

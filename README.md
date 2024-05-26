@@ -1,0 +1,1 @@
+This is Kyle's minimalist personal website. Welcome to the README page. This is hosted on vercel, domain through Porkbun. Last updated 5/25/2024.

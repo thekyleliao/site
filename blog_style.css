@@ -1,0 +1,116 @@
+/* Reset default styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set default font and colors */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+  padding: 20px; /* Add padding around the edges of the page */
+  max-width: 800px; /* Decrease the width of the body container */
+  margin: 0 auto; /* Center the body container horizontally */
+}
+
+/* Add styles for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 10px;
+  text-align: center; /* Center align headings */
+  padding: 10px; /* Add padding around the headings */
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+/* Add styles for paragraphs */
+p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+  padding: 10px; /* Add padding around the paragraphs */
+}
+
+/* Add styles for lists */
+ul,
+ol {
+  margin-bottom: 10px;
+  padding: 10px; /* Add padding around the lists */
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Add styles for links */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Add media queries for mobile responsiveness */
+@media (max-width: 768px) {
+  /* Add styles for smaller screens */
+  body {
+    font-size: 16px;
+    padding: 10px; /* Adjust padding for smaller screens */
+    max-width: 100%; /* Reset the max-width for smaller screens */
+  }
+
+  h1 {
+    font-size: 20px;
+    padding: 5px; /* Adjust padding for smaller screens */
+  }
+
+  h2 {
+    font-size: 18px;
+    padding: 5px; /* Adjust padding for smaller screens */
+  }
+
+  h3 {
+    font-size: 16px;
+    padding: 5px; /* Adjust padding for smaller screens */
+  }
+}
+
+/* BEGIN: Add extra padding between elements */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin-bottom: 20px;
+}
+/* END: Add extra padding between elements */

@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/images/favicon.png" />
+    <title>Projects | Kyle Liao</title>
+    <meta name="title" content="Projects" />
+    <meta
+      name="description"
+      content="projects HSI/O 2022 Most Impactful: OSINT
+HooHacks2022:WoGO
+April Joke Calendar:Happy April
+Kyle Liao’s Website: This Website
+Code Overflow First Place!:Project_Diani
+Panther Hack2022 Best Domain Name:SummerIn.Tech: note website is incomplete
+DiscordCLIBOT:Github Repo Allows enter commands and recieve their outputs from discord.
+FirstFlaskApp:Github Repo Notes App built in flask based on TechwithTim’s tutorial.
+Liao Simple.CSS:Github Repo Tried simple.css and created a site with only one image*
+Hack Club Python password generation workshop:Github repo not very interesting."
+    />
+    <meta name="keywords" content="" />
+
+    <meta property="og:title" content="Projects" />
+    <meta
+      property="og:description"
+      content="projects HSI/O 2022 Most Impactful: OSINT
+HooHacks2022:WoGO
+April Joke Calendar:Happy April
+Kyle Liao’s Website: This Website
+Code Overflow First Place!:Project_Diani
+Panther Hack2022 Best Domain Name:SummerIn.Tech: note website is incomplete
+DiscordCLIBOT:Github Repo Allows enter commands and recieve their outputs from discord.
+FirstFlaskApp:Github Repo Notes App built in flask based on TechwithTim’s tutorial.
+Liao Simple.CSS:Github Repo Tried simple.css and created a site with only one image*
+Hack Club Python password generation workshop:Github repo not very interesting."
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="/projects/" />
+    <meta property="og:image" content="/images/share.png" />
+    <meta property="article:section" content="" />
+
+    <meta property="og:site_name" content="Kyle Liao Blog" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="/images/share.png" />
+
+    <meta name="twitter:title" content="Projects" />
+    <meta
+      name="twitter:description"
+      content="projects HSI/O 2022 Most Impactful: OSINT
+HooHacks2022:WoGO
+April Joke Calendar:Happy April
+Kyle Liao’s Website: This Website
+Code Overflow First Place!:Project_Diani
+Panther Hack2022 Best Domain Name:SummerIn.Tech: note website is incomplete
+DiscordCLIBOT:Github Repo Allows enter commands and recieve their outputs from discord.
+FirstFlaskApp:Github Repo Notes App built in flask based on TechwithTim’s tutorial.
+Liao Simple.CSS:Github Repo Tried simple.css and created a site with only one image*
+Hack Club Python password generation workshop:Github repo not very interesting."
+    />
+
+    <meta itemprop="name" content="Projects" />
+    <meta
+      itemprop="description"
+      content="projects HSI/O 2022 Most Impactful: OSINT
+HooHacks2022:WoGO
+April Joke Calendar:Happy April
+Kyle Liao’s Website: This Website
+Code Overflow First Place!:Project_Diani
+Panther Hack2022 Best Domain Name:SummerIn.Tech: note website is incomplete
+DiscordCLIBOT:Github Repo Allows enter commands and recieve their outputs from discord.
+FirstFlaskApp:Github Repo Notes App built in flask based on TechwithTim’s tutorial.
+Liao Simple.CSS:Github Repo Tried simple.css and created a site with only one image*
+Hack Club Python password generation workshop:Github repo not very interesting."
+    />
+
+    <meta itemprop="wordCount" content="388" />
+    <meta itemprop="image" content="/images/share.png" />
+    <meta itemprop="keywords" content="" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+
+    <style>
+      body {
+        font-family: Verdana, sans-serif;
+        margin: auto;
+        padding: 20px;
+        max-width: 720px;
+        text-align: left;
+        background-color: #fff;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        line-height: 1.5;
+        color: #444;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      strong,
+      b {
+        color: #222;
+      }
+
+      a {
+        color: #3273dc;
+      }
+
+      .title {
+        text-decoration: none;
+        border: 0;
+      }
+
+      .title span {
+        font-weight: 400;
+      }
+
+      nav a {
+        margin-right: 10px;
+      }
+
+      textarea {
+        width: 100%;
+        font-size: 16px;
+      }
+
+      input {
+        font-size: 16px;
+      }
+
+      content {
+        line-height: 1.6;
+      }
+
+      table {
+        width: 100%;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      code {
+        padding: 2px 5px;
+        background-color: #f2f2f2;
+      }
+
+      pre code {
+        color: #222;
+        display: block;
+        padding: 20px;
+        white-space: pre-wrap;
+        font-size: 14px;
+      }
+
+      div.highlight pre {
+        background-color: initial;
+        color: initial;
+      }
+
+      div.highlight code {
+        background-color: unset;
+        color: unset;
+      }
+
+      blockquote {
+        border-left: 1px solid #999;
+        color: #222;
+        padding-left: 20px;
+        font-style: italic;
+      }
+
+      footer {
+        padding: 25px;
+        text-align: center;
+      }
+
+      .helptext {
+        color: #777;
+        font-size: small;
+      }
+
+      .errorlist {
+        color: #eba613;
+        font-size: small;
+      }
+
+      ul.blog-posts {
+        list-style-type: none;
+        padding: unset;
+      }
+
+      ul.blog-posts li {
+        display: flex;
+      }
+
+      ul.blog-posts li span {
+        flex: 0 0 130px;
+      }
+
+      ul.blog-posts li a:visited {
+        color: #8b6fcb;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: #333;
+          color: #ddd;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        strong,
+        b {
+          color: #eee;
+        }
+
+        a {
+          color: #8cc2dd;
+        }
+
+        code {
+          background-color: #777;
+        }
+
+        pre code {
+          color: #ddd;
+        }
+
+        blockquote {
+          color: #ccc;
+        }
+
+        textarea,
+        input {
+          background-color: #252525;
+          color: #ddd;
+        }
+
+        .helptext {
+          color: #aaa;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <a href="/" class="title">
+        <h2>Kyle Liao</h2>
+      </a>
+      <nav>
+        <a href="/index.html">Home</a>
+
+        <a href="/old/about.html">About</a>
+
+        <a href="/old/projects.html">Projects</a>
+      </nav>
+    </header>
+    <main>
+      <content>
+        <h1 id="projects">projects</h1>
+        <p>
+          <strong>HSI/O 2022</strong> <em>Most Impactful</em>:
+          <a href="https://replit.com/@HosungKim3/HowSecureIsTheInternet"
+            >OSINT</a
+          >
+        </p>
+        <p>
+          <strong>HooHacks2022</strong>:<a href="https://bit.ly/WoGO22">WoGO</a>
+        </p>
+        <p>
+          <strong>April Joke Calendar</strong>:<a
+            href="https://aprilcalendar.kyleliao.repl.co"
+            >Happy April</a
+          >
+        </p>
+        <p>
+          <strong>Kyle Liao’s Website</strong>:
+          <a href="https://kyleliao.tech">This Website</a>
+        </p>
+        <p>
+          <strong>Code Overflow</strong> <em>First Place!</em>:<a
+            href="https://devpost.com/software/project-diani"
+            >Project_Diani</a
+          >
+        </p>
+        <p>
+          <strong>Panther Hack2022</strong> <em>Best Domain Name</em>:<a
+            href="https://devpost.com/software/summerintech"
+            >SummerIn.Tech</a
+          >: <em>note website is incomplete</em>
+        </p>
+        <p>
+          <strong>DiscordCLIBOT</strong>:<a
+            href="https://github.com/thekyleliao/discordCLIBOT"
+            >Github Repo</a
+          >
+          <em>Allows enter commands and recieve their outputs from discord.</em>
+        </p>
+        <p>
+          <strong>FirstFlaskApp</strong>:<a
+            href="https://github.com/thekyleliao/firstflaskapp"
+            >Github Repo</a
+          >
+          <em>Notes App built in flask based on TechwithTim’s tutorial.</em>
+        </p>
+        <p>
+          <strong>Liao Simple.CSS</strong>:<a
+            href="https://github.com/thekyleliao/LiaoSite-simplecss"
+            >Github Repo</a
+          >
+          <em>Tried simple.css and created a site with only one image*</em>
+        </p>
+        <p>
+          <strong>Hack Club Python password generation workshop</strong>:<a
+            href="https://github.com/thekyleliao/HCpythonpasswordgenerationWorkshop"
+            >Github repo</a
+          >
+          <em
+            >not very interesting. found a typo while doing it that mildly
+            derailed me and made a successful PR to correct it.</em
+          >
+        </p>
+        <p>
+          <strong>cosmickitty.space</strong>:<a
+            href="https://github.com/Liberatory-Learners/cosmic-kitty-1"
+            >Github Repo</a
+          >:<a href="https://cosmickitty.space">cosmickitty.space</a>
+          <em
+            >Site based on the hugo profile theme, managed using hugo, hosted on
+            cloudflare pages. Site theme is built using bootstrap.</em
+          >
+        </p>
+        <p>
+          <strong>Plastic Bot</strong>:<a
+            href="https://github.com/thekyleliao/plasticbot"
+            >Github Repo</a
+          >
+          *Built using discord.py, answer and reply style bot along with quiz
+          game.
+        </p>
+        <p>
+          <strong>Hack Club Edison site</strong>:<a
+            href="https://github.com/thekyleliao/hackclub_edison"
+            >Github Repo</a
+          ><a href="https://edisonhack.club">Link</a>
+          <em
+            >html and simple.css. club website for hack club edison. hosted on
+            cloudflare.</em
+          >
+        </p>
+        <p>
+          <strong>EHC.WIKI</strong>:<a href="https://ehc.wiki">Github Repo</a>
+          <em
+            >WIP club project containing resources that members have used to
+            help students advance their technical abilities beyond</em
+          >
+        </p>
+        <p>
+          <strong>HackPHS2022</strong>
+          <em>Second Place!, best use of Wix and Velo</em>:<a
+            href="https://devpost.com/software/dyskyleculia-tech"
+            >DysKyleCulia</a
+          >
+          <em
+            >Hackathon Project using arduino, wix & velo to help solve
+            dyscalculia.</em
+          >
+        </p>
+        <p>
+          <strong>BattleBots</strong>: A sprig game for the handheld sprig
+          console for two player PVP.<a
+            href="https://sprig.hackclub.com/gallery/battle_bots"
+            >Link</a
+          >
+        </p>
+        <p>
+          <strong>Hack Edison</strong>: Website for a future internal TAEHS
+          hackathon.<a href="https://hackedison.com">Link</a>
+        </p>
+        <p>
+          <strong>HackTrin</strong>:<a
+            href="https://replit.com/@KyleLiao/hacktrin#main.py"
+            >Link</a
+          >. A machine learning model for parking space. DNF.
+        </p>
+        <p>
+          <strong>Web Dev Workshop Site</strong>:<a
+            href="https://replit.com/@KyleLiao/Web-Development-with-CLASSLESS-CSS"
+            >Link</a
+          >. A site I made for a web development workshop for Edison Hack Club.
+        </p>
+        <p>
+          <strong>ChatGPT Generated Site</strong>:<a
+            href="https://replit.com/@KyleLiao/chatgpt-ehc-site"
+            >Link</a
+          >. A site made using ChatGPT during said web development workshop.
+        </p>
+        <p>
+          <strong>LWS</strong>:<a href="https://replit.com/@KyleLiao/lws"
+            >Link</a
+          >. A site made using Simple.CSS for a school assignment. Good to go
+          back and use previous tech.
+        </p>
+        <p>
+          <strong>Const.AI</strong>:<a
+            href="https://replit.com/@KyleLiao/ConstAi"
+            >Link</a
+          >. Flask Full Stack + OpenAI API to create a constitution generator. A
+          hackathon project for SpenceHacks.
+        </p>
+        <p>
+          <strong>BookWise</strong>:<a
+            href="https://replit.com/@KyleLiao/MakeSPP"
+            >Link</a
+          >. A frontend site with Javascript bookmarklets designed for
+          accessiblity. Two person project at a 12hr hackathon. First place.
+        </p>
+        <p>
+          <strong>Attention Arsenal</strong>:<a
+            href="https://replit.com/@KyleLiao/HackTCNJ-test-two"
+            >Link</a
+          >. A full stack app with twilio text reminders, games, and a hardware
+          component.
+        </p>
+        <p>
+          <strong>Blade of Grass Sim</strong>:<a
+            href="https://replit.com/@KyleLiao/Blade-of-Grass"
+            >Link</a
+          >. A year of Ramen winning project. Yell wiggle for points using
+          teachable machine sound clip recognition.
+        </p>
+        <p>
+          <strong>The Urban Kayak</strong>:
+          <a href="https://scrapbook.hackclub.com/kyle">Link</a>. It’s a folding
+          hands-on DIY chloroplast kayak with DIY waterproof led controller.
+        </p>
+        <p>
+          Many more that have not been added. Minor new projects that are mostly
+          web dev, use apis, or oddballs like sprig games.
+        </p>
+        <!-- raw HTML omitted -->
+        <p><strong>Why did the chicken go to Dairy Queen?</strong></p>
+        <p><em>He was deserting. Don’t tell the Colonel</em>.</p>
+      </content>
+      <p></p>
+    </main>
+    <footer>
+      Made with
+      <a href="https://github.com/janraasch/hugo-bearblog/">Hugo ʕ•ᴥ•ʔ Bear</a>
+    </footer>
+  </body>
+</html>
